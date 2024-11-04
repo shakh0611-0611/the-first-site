@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap');
+
+*{font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+@font-face {
+    font-family: 'Larsseit';
+    src: url('fonts/Larsseit.woff2') format('woff2'),
+         url('fonts/Larsseit.woff') format('woff'),
+         url('fonts/Larsseit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+    background-color: #000000;
+  }
+
+
+main {
+    background-image:url(amg/herobg.svg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+
+
+.header-el {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    padding:4rem 12rem;
+}
+
+.menu-button {
+    background-color: #00C9E0;
+    color: aliceblue;
+    padding: 0.4rem;
+    border-radius:3ch;
+    width: 7rem;
+    height: 3rem;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Night {
+    font-size: 4rem;
+    font-family: 'Larsseit', sans-serif;
+}
+.WE {
+    font-size: 1rem;
+    font-family: 'Larsseit', sans-serif; 
+}
+
+.Neque { font-family: 'Larsseit', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 40rem;
+}
+
+.twitter {
+  margin-left:80rem ;
+
+}
+.facebook {
+    margin-left:80rem ;
+}
+.instagram {
+    margin-left:80rem ;
+}
+/* end main */
+
+
+
+.section {
+    background-image: url(amg/fon1.svg);
+    background-color: #000000;
+margin-right: 5rem;
+margin-left: 5rem;
+}
+
+.name1{
+    display: flex;
+align-items: center;
+padding: 5rem;
+gap: 3rem;
+}
+.box1 {
+color: white;
+    font-weight: 900;
+    font-size:4rem ;
+    
+}
+p {max-width: 400px;
+    color: white;
+}
+
+.name1 {
+
+} 
+.line {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap:10rem ; 
+margin-bottom: 8rem;
+
+}
+.line :hover{
+    color: aqua;
+    transition: 1s;
+}
+.Chill2 {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.Chill {
+    color: #FFFFFF;
+
+}
+
+.box {
+    margin: top 50px ;
+    display: flex;
+   position: relative;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 100px;
+}
+.desert {
+    padding-top: 26rem;
+    padding-left: 3rem;
+   position: absolute;
+ 
+}
+.dots {
+
+    width: 486px;
+    height: 607px;
+    padding-left: 90px;
+}
+
+.text2 {
+    display: flex;
+    align-items: center;
+    max-width: 455px;
+}
+.text3 {
+    margin-left: 5rem;
+    color: white;
+}
+h4 {
+    margin-top: 20px;
+}
+.see {
+margin-top: 3rem;
+width: 297px;
+height: 65px;
+border-radius: 50px;
+background-color: #00C9E0;
+color: white;
+}
+
+.networks {
+margin-left: 70rem;
+}
+.social {
+    margin-right: 1rem
+}
+
+.mountains {
+    opacity: ;  
+    
+}
+
+
+/* END */
+
+
+.list {
+    background-color: #000000;
+    height: 60REM;
+    margin-right: 5rem;
+margin-left: 5rem;
+  }
+
+  .qwe {padding-top: 10rem;
+    display: flex;
+    align-items: center;
+    padding-left: ;
+  }
+
+
+ .qw { }
+
+
+
+
+.word {  
+    display: grid;
+    margin-bottom: rem;
+  gap: 10px;
+margin-left: 6rem;
+color: white;
+max-width: 455px;
+}
+
+.AboutUs {
+    height: 79px;
+    font-size: 50px;
+}
+
+.we1 {
+    font-family: sans-serif; 
+}
+
+
+
+.READ {margin-top: 3rem;
+    width: 297px;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #00C9E0;
+    color: white;
+
+}
+.foto0{
+    /* padding-top: 5rem; */
+    display: grid;
+    grid-template-columns: max-content 12px;
+  
+  /* padding-left: 35rem; */
+}
+.foto {
+    width: 295px;
+    height: 295px;
+
+}
+.foto2 {
+    width: 295px;
+    height: 295px;
+    
+  }
+  .foto3 {
+    width: 295px;
+    height: 295px;
+  }
+  .foto4 {
+    width: 295px;
+    height: 295px;
+  }
+
+
+  /* <!-- end-2 --> */
+
+
+  .footer { height: 70rem;
+}
+.text5 {display: flex;
+    justify-content: center;
+font-size: 5rem;
+margin-bottom: 50px;
+color: white;
+}
+.text6 { padding: top 10px; 
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1rem;
+}
+
+.grid-container1 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.woman {
+    display: flex;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+    height: 504px; 
+    width: 510px;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    background-color: #021f36;
+  padding: 20px;
+  text-align: ;
+  height: 390px; 
+    width: 330px;
+  }
+p {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+padding-top: 20px;
+padding-left: 20px;
+}
+
+
+.end {
+    height: 30rem;
+    min-width: ;
+    display: flex;
+    flex-direction: column;
+
+}
+.text7 {margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 5rem;
+    
+}
+.text8 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+.icon {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    list-style-type: none; 
+}
+.About, .FAQ, .Events, .Contact, .Follow, .bold {
+    list-style-type: none;
+}
+li {
+    margin-bottom:1rem;
+}
+.bold {
+font-weight: bold;
+margin-bottom: 3rem;
+}   
+
+.networks2 {
+    margin-right: 1rem
+}
+
+.end-3 {
+    margin-top: 4rem;
+}
+
+.end-4 { margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.end-5 {
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
